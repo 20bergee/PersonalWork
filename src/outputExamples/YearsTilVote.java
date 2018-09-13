@@ -1,11 +1,10 @@
 package outputExamples;
 
-public class FirstAndLast {
+public class YearsTilVote {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-System.out.println("Emily");
-System.out.println("Berger");
+System.out.println("2");
 	}
 
 }
