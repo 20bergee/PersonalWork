@@ -6,7 +6,7 @@ public class FirstLastAge {
 		// TODO Auto-generated method stub
 System.out.println("Emily");
 System.out.println("Berger");
-System.out.println(16);
+System.out.println("16");
 	}
 
 }
