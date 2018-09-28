@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class MakeSomeChange {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+double amountgiven=0.0;
+Scanner input=new Scanner(System.in);
+System.out.println("How much money do you have?");
+amountgiven=input.nextDouble();
+double dollars=(int)(amountgiven/1);
+	}
+
+}
