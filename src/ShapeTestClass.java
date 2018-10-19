@@ -6,9 +6,9 @@ public class ShapeTestClass {
 Scanner input=new Scanner(System.in);
 Rectangle rex=new Rectangle();
 System.out.println("Length of Rectangle:");
-rex.setlength(input.nextDouble());
+rex.setLength(input.nextDouble());
 System.out.println("Width of Rectangle:");
-rex.setwidth(input.nextDouble());
+rex.setWidth(input.nextDouble());
 System.out.println(rex.perimeter());
 	}
 

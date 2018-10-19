@@ -2,6 +2,16 @@
 public class Rectangle {
 private double length;
 private double width;
+public Rectangle(){
+	length=999.9;
+	width=999.9;
+}
+	public void setWidth(double xwidth){
+		width=xwidth;
+	}
+	public void setLength(double xLength){
+		length=xLength;
+	}
 public double getLength()
 {
 	return length;

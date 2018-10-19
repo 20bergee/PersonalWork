@@ -19,7 +19,7 @@ private int experience;
 	public void setExperience(int userExperience){
 		experience=userExperience;
 	}
-	public void raise(){
-		wage=wage*1.10;
+	public double getRaise(){
+		return wage*1.10;
 	}
 }
