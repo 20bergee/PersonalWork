@@ -10,7 +10,7 @@ public class TestScores {
 		System.out.println("Second Score:");
 		double score2=input.nextDouble();
 		System.out.println("Third Score:");
-		double score3
+		double score3=input.nextDouble();
 	}
 
 }
