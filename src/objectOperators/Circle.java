@@ -12,7 +12,7 @@ public double getRadius(){
 	return radius;
 }
 public double getCircumference(){
-	return (2*3.14*radius);
+	return (2.0*3.14*radius);
 }
 public double getArea(){
 	return (3.14*Math.pow(radius,2.0));

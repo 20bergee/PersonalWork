@@ -6,22 +6,31 @@ public class CircleTest {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 Scanner input=new Scanner(System.in);
-Circle bob=new Circle();
 int counter=0;
 double largest=0.0;
+double perimeter=0.0;
+double enteredRadius=0.0;
+int largestCircle=0;
 System.out.println("Enter the radius:");
-double enteredRadius=input.nextDouble();
-do {
-	double perimeter=bob.getCircumference(enteredRadius);
-	if (perimeter>largest){
-		perimeter=largest;
-	}
+enteredRadius=input.nextDouble();
 counter++;
+do {
+System.out.println("Enter the radius:");
+enteredRadius=input.nextDouble();
+counter++;
+if (enteredRadius>largest){
+	largest=enteredRadius;
 }
-while (counter<=3);
-System.out.println("The biggest circle has a perimeter of"+largest);
+if (enteredRadius==largest){
+largestCircle=counter;
+}
+}
+while (counter<3);
+Circle bob=new Circle(largest);
+perimeter=bob.getCircumference();
+System.out.println("The biggest circle is circle "+largestCircle+" with a perimeter of "+perimeter);
 	}
 }
-}
+
 
 	
