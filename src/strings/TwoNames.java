@@ -19,5 +19,3 @@ else
 		System.out.println("The names are the same,");
 	}
 	}
-
-}
