@@ -7,7 +7,7 @@ public class TestScores {
 		Scanner input=new Scanner(System.in);
 	int index=0;
 	int[] scores=new int[5];
-for (int counter=1; counter<=5; counter++){
+for (int counter=0; counter<scores.length; counter++){
 	System.out.println("Test Score "+counter+":");
 	scores[index]=input.nextInt();
 	index++;
