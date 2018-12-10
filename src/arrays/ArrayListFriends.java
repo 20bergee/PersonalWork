@@ -12,8 +12,6 @@ Friend friend3=new Friend("Leah",16);
 friends.add(friend3);
 friends.add(friend2);
 friends.add(friend1);
-for(int i=0; i<3; i++){
-System.out.println(friends.get(i).getAge());
 	}
 	}
-}
+
