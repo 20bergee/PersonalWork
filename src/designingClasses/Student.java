@@ -2,10 +2,11 @@ package designingClasses;
 import java.util.ArrayList;
 public class Student {
 private String name;
-private ArrayList <Integer> tests=new <Integer> ArrayList();
+private ArrayList <Integer> tests;
 private int howMany;
 public Student(){
 	name="Bob";
+	tests=new ArrayList<Integer>();
 			for(int i=0; i<5;i++){
 	tests.add(50);}
 	howMany=5;
@@ -40,6 +41,11 @@ public int lowestScore(){
 public String toString(){
 	return ("The Student "+name+" has taken "+howMany+" tests");
 }
-public 
+public Object clone(){
+	return new Student(name);
+}
+public boolean equals(Object xObject){
+	return this.toString().equals(xObject.toString());
+}
 
 }
