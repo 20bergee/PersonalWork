@@ -24,7 +24,7 @@ for(int i=0; i<employees.size(); i++){
 }
 double total=0;
 for(int i=0; i<employees.size(); i++){
-	for(int j=0; j<52;j++){
+	for(int j=1; j<=52;j++){
 		total+=employees.get(i).calcPay(j);
 	}
 }
