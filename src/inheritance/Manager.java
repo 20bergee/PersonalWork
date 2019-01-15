@@ -7,7 +7,7 @@ public Manager(){
 	level=4.0;
 }
 public Manager(String xName, double xRate, double xLevel){
-	super(xName, xRate);
+	super (xName, xRate);
 	level=xLevel;
 }
 public double calcPay(double xHours){
