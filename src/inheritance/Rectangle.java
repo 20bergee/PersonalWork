@@ -1,6 +1,6 @@
 package inheritance;
 
-public class Rectangle extends Parallelogram{
+public class Rectangle extends Parallelogram implements Geo{
 public Rectangle(){
 super();
 }
